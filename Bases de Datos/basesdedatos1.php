@@ -11,11 +11,20 @@ try {
 
     foreach ($resultado as $fila){
       foreach ($fila as $clave => $valor){
-        echo $clave . " " . $valor . "\n";
+        echo $clave . " " . $valor . "<br>";
       }
-      echo "--------------\n";
+      echo "<hr><br>";
     }
-
+  /*  while($row = $stmt->fetch(PDO::FETCH_OBJ)){
+      echo "Nombre: " . $row->nombre . "<br>";
+      echo "Ciudad: " . $row->ciudad . "<br>";
+  }
+  id 1
+0 1
+nombre Jorge
+1 Jorge
+num_trofeos 10
+2 10*/
     // Ya se ha terminado; se cierra
     $resultado = null;
     $mbd = null;
