@@ -24,7 +24,7 @@
             <tbody>
                 <!-- Creamos el codigo php con un bucle for para visualizar en pantalla la tabla -->
                 <?php for($i=0; $i <= $hasta; $i++) {?>
-                <tr border='1'>
+                <tr>
                     <td><?=$num?> x <?=$i?></td>
                     <td><?=$num*$i?></td>
                 </tr>
